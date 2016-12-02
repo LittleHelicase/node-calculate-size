@@ -1,0 +1,28 @@
+{
+  "name": "node-calculate-size",
+  "version": "1.0.0",
+  "description": "Node API and CLI for calculating text sizes using phantomJS.",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LittleHelicase/node-calculate-size.git"
+  },
+  "keywords": [
+    "\"Font",
+    "metrics\"",
+    "measure"
+  ],
+  "author": "Maximilian Klein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LittleHelicase/node-calculate-size/issues"
+  },
+  "homepage": "https://github.com/LittleHelicase/node-calculate-size#readme",
+  "dependencies": {
+    "calculate-size": "^0.2.0",
+    "nightmare": "^2.8.1"
+  }
+}
