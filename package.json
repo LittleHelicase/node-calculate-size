@@ -4,7 +4,9 @@
   "description": "Node API and CLI for calculating text sizes using phantomJS.",
   "main": "api.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "",
+    "build": "mkdir -p js && cp node_modules/calculate-size/src/calculate-size.js js/calculate-size.js",
+    "prepublish": "npm build"
   },
   "repository": {
     "type": "git",
