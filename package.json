@@ -1,6 +1,6 @@
 {
   "name": "node-calculate-size",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node API and CLI for calculating text sizes using phantomJS.",
   "main": "api.js",
   "scripts": {
